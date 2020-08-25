@@ -14,8 +14,8 @@ jobs:
           command: bundle install
 
       - run:
-          name: bundle exec jekyll build
-          command: REPLACE-ME-WITH-BUILD-COMMAND
+          name: build the jekyll site
+          command: bundle exec jekyll build
 
       - run:
           name: notify build is finished
